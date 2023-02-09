@@ -10,11 +10,11 @@ job('Job-pTienda') {
         }
     }
     triggers {
-        //  scm('H/5 * * * *') j
+        //  scm('H/5 * * * *')
         githubPush()
     }
 
     steps {
-        shell('bash ./install.sh')
+        shell('bash install.sh')
     }
 }
