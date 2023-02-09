@@ -10,7 +10,7 @@ job('Job-pTienda') {
         }
     }
     triggers {
-        //  scm('H/5 * * * *')
+        //  scm('H/5 * * * *') j
         githubPush()
     }
 
