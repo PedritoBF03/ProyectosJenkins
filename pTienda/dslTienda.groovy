@@ -14,7 +14,7 @@ job('Job-pTienda') {
         githubPush()
     }
 
-    // steps {
-    //     shell('bash install.sh')
-    // }
+    steps {
+        shell('bash ./install.sh')
+    }
 }
