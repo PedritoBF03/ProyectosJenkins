@@ -1,7 +1,7 @@
 // import jenkins-auto-approve-script.groovy
 
 job('Job-pTienda') {
-    description('Job Padre para crear una tarea Hija que despliegue la App Nievabus 2')
+    description('Job Padre para crear una tarea Hija que despliegue la App Nievabus')
     scm {
         git('https://github.com/PedritoBF03/Nievabus.git', 'master') {
             node ->
