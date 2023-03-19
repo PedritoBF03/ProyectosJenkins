@@ -15,6 +15,6 @@ job('Job-pNievabus') {
     }
 
     steps {
-        shell('bash ./build/install.sh')
+        shell("sh levantar-api.sh")
     }
 }
