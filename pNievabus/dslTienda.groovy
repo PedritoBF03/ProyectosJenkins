@@ -15,7 +15,7 @@ job('Job-pNievabus') {
     }
 
     steps {
-        shell("chmod 777 levantar-api.sh")
+        shell("chmod 777 .")
         shell("sh levantar-api.sh")
     }
 }
